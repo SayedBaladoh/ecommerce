@@ -84,7 +84,7 @@ git clone https://github.com/SayedBaladoh/ecommerce.git
 - You need to add the required configuration for the application: 
   - open `src/main/resources/application.properties` file.
   - Change:
-    - 'STRIPE_SECRET_KEY' The Stripe payment test secret key.
+    - `STRIPE_SECRET_KEY` The Stripe payment test secret key.
     - `BASE_URL`: The base url for successURL and failedURL for payment gateway
   - You can change other settings like server port, database username and password.
 
@@ -159,7 +159,7 @@ cd ecommerce/
   - open `src/main/resources/application.properties` file.
   - Change:
     - `STRIPE_SECRET_KEY`: The Stripe payment test secret key.
-        - `BASE_URL`: The base url for successURL and failedURL for payment gateway.
+    - `BASE_URL`: The base url for successURL and failedURL for payment gateway.
   - You can change other settings like server port, database username and password.
 	
 
@@ -181,9 +181,9 @@ cd ecommerce/
 
 	Wait until build process has finished.
 
-	After getting a Build Success message, There are two link for you to open sonarqube on browser. click that link and automatically open your browser.
+	After getting a Build Success message, There are two link for you to open sonarqube on browser. Click the link and automatically open your browser.
 	
-	Or go to `http://localhost:9000/` on the Web Browser and Click on the Project Name to see the detailed report.
+	Or go to `http://localhost:9000/` on the Web Browser and click on the project name to see the detailed report.
 	
 5. **Run the application**
 
